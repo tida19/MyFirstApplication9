@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".contact.Contactfragment">
+    tools:context=".contact.ContactFragment">
 
     <data>
         <variable
             name="ConViewModel"
-            type="com.example.myfirstapplication9.contact.Contactfragment" />
+            type="com.example.myfirstapplication9.contact.ContactFragment" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".contact.ContactFragment">>
+        tools:context=".contact.ContactFragment">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"

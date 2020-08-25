@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.myfirstapplication9.R
 
 
-class Contactfragment : Fragment() {
+class ContactFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
