@@ -3,29 +3,32 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+
     <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawerLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/por10"
         tools:context=".MainActivity">
 
-    <FrameLayout
-        android:id="@+id/containFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/containFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    </FrameLayout>
+        </FrameLayout>
 
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:menu="@menu/menu">
-
-
-    </com.google.android.material.navigation.NavigationView>
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/por9"
+            app:menu="@menu/menu">
 
 
-</androidx.drawerlayout.widget.DrawerLayout>
+        </com.google.android.material.navigation.NavigationView>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
 </layout>

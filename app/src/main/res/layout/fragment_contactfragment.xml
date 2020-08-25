@@ -22,10 +22,11 @@
             android:layout_marginTop="1dp"
             android:layout_marginEnd="1dp"
             android:layout_marginBottom="1dp"
+            android:background="@drawable/por8"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" >
+            app:layout_constraintTop_toTopOf="parent">
 
         </androidx.recyclerview.widget.RecyclerView>
 
@@ -42,6 +43,6 @@
             app:layout_constraintHorizontal_bias="0.941"
             app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-    
+
 
 </layout>

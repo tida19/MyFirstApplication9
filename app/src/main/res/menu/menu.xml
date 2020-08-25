@@ -4,8 +4,10 @@
 
     <item
         android:id="@+id/menu_about"
+        android:icon="@drawable/ic_baseline_emoji_emotions_24"
         android:title="@string/About_text" />
     <item
         android:id="@+id/menu_contact"
+        android:icon="@drawable/ic_baseline_emoji_emotions_24"
         android:title="@string/Contact_taxt" />
 </menu>
